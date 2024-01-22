@@ -1,0 +1,61 @@
+.navBar-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(11, 43, 98);
+    display: flex;
+   
+  
+}
+
+.navBar-container ul{
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+   
+  
+   
+}
+
+.navBar-container ul li{
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.navBar-container ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.menu-desplegable{
+    color: black;
+}
+.menu-desplegable2{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    height: 100%;
+    padding: 20px 10px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links:hover{
+    height: 100%;
+    
+    padding: 20px 10px;
+    background-color: rgb(105, 164, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
